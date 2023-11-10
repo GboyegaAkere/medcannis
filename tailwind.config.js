@@ -58,6 +58,8 @@ export default {
         cartBg: "#282a2c",
         cartItem: "#2e3033",
         cartTotal: "#343739",
+        sec: "#F2F6F4"
+
       },
     },
   },

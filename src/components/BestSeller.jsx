@@ -1,11 +1,13 @@
 import React from 'react'
+import Weed1 from "../assets/images/weed1.png"
+import {BiSolidStar} from "react-icons/bi"
 
 const BestSeller = () => {
   return (
     <div>
-        <div className='w-[434px] h-[40px] md:w-[1200px] md:h-[48px] flex flex-row justify-center items-center gap-8 md:ml-[70px]'>
+        <div className='w-[434px] h-[40px] md:w-[1200px] md:h-[48px] flex flex-row  px-[25px] md:mx-auto justify-center items-center gap-8 md:ml-[70px] scrollbar'>
             <div className='w-[378px] h-[48px] bg-sec flex items-center justify-center rounded-full'>
-                <button>Best Seller</button>
+                <button className=''>Best Seller</button>
             </div>
             <div className='w-[378px] h-[48px] bg-sec flex items-center justify-center rounded-full'>
                 <button>Bundles & Promotions</button>
@@ -15,7 +17,138 @@ const BestSeller = () => {
             </div>
         </div>
 
-        <div className='w-[1348px] h-[568px]'>
+        <div className='w-[1348px] h-[568px] md:justify-center md:mx-auto gap-4 flex  md:flex-row md:items-center flex-col mt-10 '>
+            <div className='w-[379px] h-[568px] mx-10 md:mx-auto bg-green-900 gap-4 flex flex-col items-center justify-center rounded-lg'>
+                <div className='w-[213px] h-[213px]'>
+                    <img src={Weed1} alt="" />
+                </div>
+                <div className='flex flex-col items-center justify-center gap-8'>
+                    <p className='font-bold text-white'>Shop our Best Sellers</p>
+                    <div className='w-[200px] h-[84px] '>
+                     <p className='text-sec'>Lorem ipsum dolor sit amet consectetur. Ullamcorper ipsum varius lorem blandit lectus magnis feugiat.</p>
+                    </div>
+                    <p className='text-green-700 underline'> <a href="">View All</a></p>
+                </div>
+            </div>
+            
+           <div className='flex flex-row items-center mx-5  gap-4'>
+                <div className='md:w-[291px] h-[568px] mx-5 md:mx-auto border-2 border-gray-100 rounded-lg w-[379px]'> 
+                        <div className='w-[379px] md:w-[291px] rounded-lg h-[240px] bg-gray-200 flex items-center justify-center'>
+                            <img src={Weed1} alt="" />
+                        </div>
+                        <div className='flex flex-col items-center justify-center gap-3 mt-3'>
+                            <p>FLOWER</p>
+                            <div className='w-[291px] h-[54px] flex flex-col items-center justify-center px-5'>
+                                <p className='font-bold'>2 Oz Deal Watermelon Zkittles </p>
+                            </div>
+                            <div className='flex flex-row items-center gap-2'>
+                                <p className='text-yellow-400 text-2xl'><BiSolidStar/></p>
+                                <p className='font-bold'>4.6/5</p>
+                                <p className='text-gray-300'>|</p>
+                                <p><span className='font-bold'>135</span> <span className='text-gray-200'>Reviews</span></p>
+                            </div>
+                            <div className='w-[92px] h-[28px] bg-sec flex items-center justify-center rounded-lg'>
+                                <p className='text-sm'>Sativa 100%</p>
+                            </div>
+                            <div>
+                                <span className='text-red-500 font-bold text-sm'>$800.00 </span>
+                                <span className='text-gray-200'>/gram</span>
+                            </div>
+                            <div className='flex flex-row items-center justify-center gap-4'>
+                                <div className='w-[42px] h-[32px] border-2 border-gray-100 flex items-center justify-center rounded-lg'>
+                                    <p className='text-sm'>28g</p>
+                                </div>
+                                <div className='w-[50px] h-[32px] border-2 border-gray-100 flex items-center justify-center rounded-lg'>
+                                    <p>1/2lb</p>
+                                </div>
+                                <div className='w-[50px] h-[32px] border-2 border-gray-100 flex items-center justify-center rounded-lg'>
+                                    <p>1/4lb</p>
+                                </div>
+                            </div>
+                            <div className='w-[128px] h-[40px] bg-green-500 flex items-center justify-center rounded-full'>
+                                <button className='text-white'>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='md:w-[291px] h-[568px] mx-5 md:mx-auto border-2 border-gray-100 rounded-lg w-[379px]'> 
+                        <div className='w-[379px] md:w-[291px] rounded-lg h-[240px] bg-gray-200 flex items-center justify-center'>
+                            <img src={Weed1} alt="" />
+                        </div>
+                        <div className='flex flex-col items-center justify-center gap-3 mt-3'>
+                            <p>CONCENTRATES</p>
+                            <div className='w-[291px] h-[54px] flex flex-col items-center justify-center px-5'>
+                                <p className='font-bold'>Mix And Match Shatter/Budder </p>
+                            </div>
+                            <div className='flex flex-row items-center gap-2'>
+                                <p className='text-yellow-400 text-2xl'><BiSolidStar/></p>
+                                <p className='font-bold'>4.6/5</p>
+                                <p className='text-gray-300'>|</p>
+                                <p><span className='font-bold'>135</span> <span className='text-gray-200'>Reviews</span></p>
+                            </div>
+                            <div className='w-[92px] h-[28px] bg-sec flex items-center justify-center rounded-lg'>
+                                <p className='text-sm'>Indica 70%</p>
+                            </div>
+                            <div className='flex flex-row items-center gap-2'>
+                                <span className='text-gray-200 text-sm'>$200</span>
+                                <span className='text-red-500 font-bold text-sm'>$102.00 </span>  
+                            </div>
+                            <div className='flex flex-row items-center justify-center gap-4'>
+                                <div className='w-[42px] h-[32px] border-2 border-gray-100 flex items-center justify-center rounded-lg'>
+                                    <p className='text-sm'>28g</p>
+                                </div>
+                                <div className='w-[50px] h-[32px] border-2 border-gray-100 flex items-center justify-center rounded-lg'>
+                                    <p>1/2lb</p>
+                                </div>
+                                <div className='w-[50px] h-[32px] border-2 border-gray-100 flex items-center justify-center rounded-lg'>
+                                    <p>1/4lb</p>
+                                </div>
+                            </div>
+                            <div className='w-[128px] h-[40px] bg-green-500 flex items-center justify-center rounded-full'>
+                                <button className='text-white'>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='md:w-[291px] h-[568px] mx-5 md:mx-auto border-2 border-gray-100 rounded-lg w-[379px]'> 
+                        <div className='w-[379px] md:w-[291px] rounded-lg h-[240px] bg-gray-200 flex items-center justify-center'>
+                            <img src={Weed1} alt="" />
+                        </div>
+                        <div className='flex flex-col items-center justify-center gap-3 mt-3'>
+                            <p>FLOWER</p>
+                            <div className='w-[291px] h-[54px] flex flex-col items-center justify-center px-5'>
+                                <p className='font-bold'>2 Oz Deal Watermelon Zkittles </p>
+                            </div>
+                            <div className='flex flex-row items-center gap-2'>
+                                <p className='text-yellow-400 text-2xl'><BiSolidStar/></p>
+                                <p className='font-bold'>4.6/5</p>
+                                <p className='text-gray-300'>|</p>
+                                <p><span className='font-bold'>135</span> <span className='text-gray-200'>Reviews</span></p>
+                            </div>
+                            <div className='w-[92px] h-[28px] bg-sec flex items-center justify-center rounded-lg'>
+                                <p className='text-sm'>Sativa 100%</p>
+                            </div>
+                            <div className='flex flex-row items-center gap-2'>
+                                <span className='text-gray-200 text-sm'>$200</span>
+                                <span className='text-red-500 font-bold text-sm'>$120.00 </span>  
+                            </div>
+                            <div className='flex flex-row items-center justify-center gap-4'>
+                                <div className='w-[42px] h-[32px] border-2 border-gray-100 flex items-center justify-center rounded-lg'>
+                                    <p className='text-sm'>28g</p>
+                                </div>
+                                <div className='w-[50px] h-[32px] border-2 border-gray-100 flex items-center justify-center rounded-lg'>
+                                    <p>1/2lb</p>
+                                </div>
+                                <div className='w-[50px] h-[32px] border-2 border-gray-100 flex items-center justify-center rounded-lg'>
+                                    <p>1/4lb</p>
+                                </div>
+                            </div>
+                            <div className='w-[128px] h-[40px] bg-green-500 flex items-center justify-center rounded-full'>
+                                <button className='text-white'>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+           </div>
 
         </div>
     </div>

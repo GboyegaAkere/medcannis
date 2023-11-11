@@ -29,7 +29,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className=' md:hidden w-[390px] h-[56px] flex  flex-row justify-between items-center pr-[63px] pl-[10px] border-b-2 border-gray-100'>
+      <div className=' md:hidden w-[390px] h-[56px] flex mx-auto  flex-row justify-between items-center pr-[12px] pl-[10px] border-b-2 border-gray-100'>
           <FiMenu className='w-[24px] h-[24px]'/>
           <img src={Logo} alt="" 
           className='w-[155px] h-[28px] object-contain' 
@@ -46,8 +46,8 @@ const Header = () => {
         </div>
         
       </div>
-        <div className= 'md:hidden flex flex-row items-center justify-center gap-2 mt-2  w-[390px] h-[60px]'>
-          <input type="text" placeholder='Search' className='w-[250px] pl-3  h-[36px] rounded-full border-2 border-gray-100' />
+        <div className= 'md:hidden flex flex-row items-center mx-auto ml-12 gap-2 mt-2  w-[390px] h-[60px]'>
+          <input type="text" placeholder='Search' className='w-[298px] pl-3  h-[36px] rounded-full border-2 border-gray-100' />
           <div className='w-[36px] h-[36px] bg-green-500 rounded-full flex justify-center items-center mr-12'>
            <BsSearch className='w-[18px] h-[18px]'/> 
           </div>

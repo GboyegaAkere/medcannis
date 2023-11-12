@@ -26,7 +26,7 @@ const BestSeller = ({data}) => {
 
   return (
     <div>
-        <div className='w-[434px] h-[40px] md:w-[1200px] md:h-[48px] flex gap-2  justify-centerflex-row bg-red-300 md:ml-20 '>
+        <div className='w-[434px] h-[40px] md:w-[1200px] md:h-[48px] flex gap-2  justify-centerflex-row  md:ml-20 '>
             <div className='w-[378px] h-[48px] bg-sec flex items-center justify-center rounded-full'>
                 <button className=''>Best Seller</button>
             </div>

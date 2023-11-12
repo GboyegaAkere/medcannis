@@ -6,7 +6,7 @@ import Product from '../components/Product'
 
 const Home = () => {
   return (
-    <div>
+    <div className='bg-black'>
       <HeroSection/>
       <BestSeller />
       <Testimonial/>

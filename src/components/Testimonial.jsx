@@ -9,7 +9,7 @@ const Testimonial = () => {
         <div className='md:w-[815px] w-[342] h-[76] md:h-[70px] md:mx-auto mx-10 mb-3 flex  items-center justify-center'>
             <p className='text-4xl font-bold'>CUSTOMER TESTIMONIALS</p>
         </div>
-        <div className='w-[1612px] md:h-[424px] md:justify-center md:pr-[240px] mx-10 ml-5 md:m-0  gap-4 flex  md:flex-row md:items-center flex-col mt-10 '>
+        <div className='w-[1612px] md:h-[424px] md:justify-center md:pr-[240px] md:mx-10 ml-6 gap-4 flex  md:flex-row md:items-center flex-col mt-10 '>
             <div className='w-[379px] h-[424px] bg-green-900 mb-3 flex flex-col gap-3   justify-center rounded-lg'>
                 <div className='w-[299] h-[152]  px-10'>
                     <p className='text-3xl text-white font-semibold'>VOTED BEST ONLINE DISPENSARY IN CANADA</p>
@@ -57,7 +57,7 @@ const Testimonial = () => {
                         <div className='w-full h-[120px] mt-2'>
                             <p>Absolutely love TopShelfBC; affordable on any budget and such fast delivery, straight to my door! I recommend them to all my friends and family for their 420 needs.</p>
                         </div>
-                        <p>January 15, 2011</p>
+                        <p>January 15, 2023</p>
                     </div>
                 </div>
 

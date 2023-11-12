@@ -26,7 +26,7 @@ const BestSeller = ({data}) => {
 
   return (
     <div>
-        <div className='w-[434px] h-[40px] md:w-[1200px] md:h-[48px] flex flex-row  px-[25px] md:mx-auto justify-center items-center gap-8 md:ml-[70px] scrollbar'>
+        <div className='w-[434px] h-[40px] md:w-[1200px] md:h-[48px] flex gap-2  justify-centerflex-row bg-red-300 md:ml-20 '>
             <div className='w-[378px] h-[48px] bg-sec flex items-center justify-center rounded-full'>
                 <button className=''>Best Seller</button>
             </div>
@@ -39,7 +39,7 @@ const BestSeller = ({data}) => {
         </div>
 
         <div className='w-[1348px] md:h-[568px] md:justify-center md:mx-auto gap-4 flex  md:flex-row md:items-center flex-col mt-10 '>
-            <div className='w-[379px] h-[568px] ml-5 md:ml-10 md:mx-auto bg-green-900 gap-4 flex flex-col items-center justify-center rounded-lg'>
+            <div className='w-[342px] h-[568px] ml-5 md:ml-10 md:mx-auto bg-green-900 gap-4 flex flex-col items-center justify-center rounded-lg'>
                 <div className='w-[213px] h-[213px]'>
                     <img src={Weed1} alt="" />
                 </div>
@@ -55,8 +55,8 @@ const BestSeller = ({data}) => {
            <div className='flex flex-row items-center mx-5  gap-4'>
            {products && products.map((items,index)=>{
                     return(
-                        <div key={index} className='md:w-[291px] h-[568px]  md:mx-auto border-2 mr-10 border-gray-100 rounded-lg w-[379px]'> 
-                            <div className='w-[379px] md:w-[291px] rounded-lg h-[240px] bg-gray-200 flex items-center justify-center'>
+                        <div key={index} className='w-[291px] h-[568px]  md:mx-auto ml-6 border-2  border-gray-100 rounded-lg '> 
+                            <div className=' w-[291px] rounded-lg h-[240px] bg-gray-200 flex items-center justify-center'>
                                 <img src={items.image} alt="" />
                             </div>
                             <div className='flex flex-col items-center justify-center gap-3 mt-3'>

@@ -71,7 +71,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-     <div className=' md:mx-auto mx-auto  w-[342px] h-[114px] md:w-[948px] md:h-[140px] flex  ml-12 md:justify-center  items-center '>
+     <div className='w-[342px] h-[114px] ml-6 md:ml-[220px] md:w-[948px] md:h-[140px] flex md:justify-center  items-center '>
          <p className=' text-2xl md:text-4xl flex font-bold  '>BEST DISPENSARY TO BUY WEED ONLINE IN CANADA</p>
      </div>
     </>

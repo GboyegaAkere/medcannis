@@ -6,17 +6,17 @@ import Group2 from '../assets/images/group2.png'
 const Testimonial = () => {
   return (
     <div className='mt-10'>
-        <div className='md:w-[815px] w-[342] h-[76] md:h-[70px] md:mx-auto mx-10 mb-3 flex  items-center justify-center'>
+        <div className='md:w-[815px] w-[342] h-[76] md:h-[70px] md:ml-[230px] mx-10 mb-3 flex  items-center justify-center'>
             <p className='text-4xl font-bold'>CUSTOMER TESTIMONIALS</p>
         </div>
-        <div className='w-[1612px] md:h-[424px] md:justify-center md:pr-[240px] md:mx-10 ml-6 gap-4 flex  md:flex-row md:items-center flex-col mt-10 '>
-            <div className='w-[379px] h-[424px] bg-green-900 mb-3 flex flex-col gap-3   justify-center rounded-lg'>
+        <div className='w-[1612px] md:h-[424px] md:justify-center md:pr-[240px] md:mx-10 ml-6 gap-4 flex  md:flex-row md:items-center flex-col mt-9 '>
+            <div className='w-[342px] h-[424px] bg-green-900 mb-3 flex flex-col gap-3  justify-center rounded-lg'>
                 <div className='w-[299] h-[152]  px-10'>
                     <p className='text-3xl text-white font-semibold'>VOTED BEST ONLINE DISPENSARY IN CANADA</p>
                 </div>
                 <div></div>
                 <div>
-                    <div className='px-10 '>
+                    <div className='px-10'>
                         <div className='mb-3'>
                             <p className='mb-5 text-2xl font-bold text-gray-400'>Google</p>
                             <p>EXCELLENCET</p>
@@ -37,8 +37,8 @@ const Testimonial = () => {
             </div>
 
             <div className='flex flex-row items-center gap-4'>
-                <div className='w-[379px] h-[424px] shadow-lg border flex flex-col gap-3 items-center  justify-center rounded-lg'>
-                    <div className='w-[299px] h-[252px]'>
+                <div className='w-[300px] h-[424px] shadow-lg border ml-5 flex flex-col gap-3 items-center  justify-center rounded-lg'>
+                    <div className='w-[252px] h-[252px]'>
                         <div className='w-[135px] h-[36px] flex flex-row items-center mt-5 gap-3'>
                         <img src={Group1} alt="" /> 
                         <div className='flex flex-row items-center gap-1'>
@@ -61,8 +61,8 @@ const Testimonial = () => {
                     </div>
                 </div>
 
-                <div className='w-[379px] h-[424px] border shadow-lg flex flex-col gap-3 items-center  justify-center rounded-lg'>
-                    <div className='w-[299px] h-[252px]'>
+                <div className='w-[300px] h-[424px] border shadow-lg flex flex-col gap-3 items-center  justify-center rounded-lg'>
+                    <div className='w-[252px] h-[252px]'>
                         <div className='w-[135px] h-[36px] flex flex-row items-center mt-5 gap-3'>
                         <img src={Group2} alt="" /> 
                         <div className='flex flex-row items-center gap-1'>

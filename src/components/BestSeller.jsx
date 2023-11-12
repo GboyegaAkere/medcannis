@@ -39,7 +39,7 @@ const BestSeller = ({data}) => {
         </div>
 
         <div className='w-[1348px] md:h-[568px] md:justify-center md:mx-auto gap-4 flex  md:flex-row md:items-center flex-col mt-10 '>
-            <div className='w-[379px] h-[568px] mx-10 md:mx-auto bg-green-900 gap-4 flex flex-col items-center justify-center rounded-lg'>
+            <div className='w-[379px] h-[568px] md:ml-10 md:mx-auto ml-[20px]  bg-green-900 gap-4 flex flex-col items-center justify-center rounded-lg'>
                 <div className='w-[213px] h-[213px]'>
                     <img src={Weed1} alt="" />
                 </div>
@@ -52,10 +52,10 @@ const BestSeller = ({data}) => {
                 </div>
             </div>
             
-           <div className='flex flex-row items-center mx-5  gap-4'>
+           <div className='flex flex-row items-center mx-5 gap-4'>
            {products && products.map((items,index)=>{
                     return(
-                        <div key={index} className='md:w-[291px] h-[568px] mx-5 md:mx-auto border-2 border-gray-100 rounded-lg w-[379px]'> 
+                        <div key={index} className='md:w-[291px] h-[568px]  md:mx-5 mr-[20px]  border-2 border-gray-100 rounded-lg w-[379px]'> 
                             <div className='w-[379px] md:w-[291px] rounded-lg h-[240px] bg-gray-200 flex items-center justify-center'>
                                 <img src={items.image} alt="" />
                             </div>

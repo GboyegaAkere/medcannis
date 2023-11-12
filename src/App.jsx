@@ -4,6 +4,7 @@ import Home from "./pages/Home"
 import Login from "./pages/Login"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
+import Slider from "react-slick"
 
 
 export default function App() {

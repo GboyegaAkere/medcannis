@@ -57,7 +57,7 @@ const Testimonial = () => {
                         <div className='w-full h-[120px] mt-2'>
                             <p>Absolutely love TopShelfBC; affordable on any budget and such fast delivery, straight to my door! I recommend them to all my friends and family for their 420 needs.</p>
                         </div>
-                        <p>January 15, 2023</p>
+                        <p>January 15, 2011</p>
                     </div>
                 </div>
 

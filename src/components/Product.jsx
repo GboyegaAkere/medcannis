@@ -67,7 +67,7 @@ const Product = () => {
                                         <p>1/4lb</p>
                                     </div>
                                 </div>
-                                <div className='w-[128px] h-[40px] bg-green-500 flex items-center justify-center rounded-full'>
+                                <div className='md:w-[128px] w-[117px] h-[40px] bg-green-500 flex items-center justify-center rounded-full'>
                                     <button className='text-white'>Add to Cart</button>
                                 </div>
                             </div>

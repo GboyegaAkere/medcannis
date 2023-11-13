@@ -29,7 +29,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className=' md:hidden w-[390px] h-[56px] flex mx-auto  flex-row justify-between items-center pr-[12px] pl-[10px] border-b-2 border-gray-100'>
+      <div className=' md:hidden w-[390px] h-[56px] flex flex-row justify-between items-center border-b-2 border-gray-100'>
           <FiMenu className='w-[24px] h-[24px]'/>
           <img src={Logo} alt="" 
           className='w-[155px] h-[28px] object-contain' 

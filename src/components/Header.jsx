@@ -46,7 +46,7 @@ const Header = () => {
         </div>
         
       </div>
-        <div className= 'md:hidden flex flex-row items-center mx-auto ml-12 gap-2 mt-2  w-[390px] h-[60px]'>
+        <div className= 'md:hidden flex flex-row items-center mx-auto gap-2 mt-2  w-[390px] h-[60px]'>
           <input type="text" placeholder='Search' className='w-[298px] pl-3  h-[36px] rounded-full border-2 border-gray-100' />
           <div className='w-[36px] h-[36px] bg-green-500 rounded-full flex justify-center items-center mr-12'>
            <BsSearch className='w-[18px] h-[18px]'/> 

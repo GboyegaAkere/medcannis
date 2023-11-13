@@ -15,13 +15,13 @@ const BestSeller = ({data}) => {
     //     setProduct(filteredProducts);
     //   };
 
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1
-      };
+    // const settings = {
+    //     dots: true,
+    //     infinite: true,
+    //     speed: 500,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1
+    //   };
 
 
   return (
@@ -55,7 +55,7 @@ const BestSeller = ({data}) => {
            <div className='flex flex-row items-center mx-5  gap-4'>
            {products && products.map((items,index)=>{
                     return(
-                        <div key={index} className='w-[291px] h-[568px]  md:mx-auto ml-6 border-2  border-gray-100 rounded-lg '> 
+                        <div key={index} className='w-[291px] h-[568px]  md:mx-auto ml-6 border  shadow-lg rounded-lg '> 
                             <div className=' w-[291px] rounded-lg h-[240px] bg-gray-200 flex items-center justify-center'>
                                 <img src={items.image} alt="" />
                             </div>

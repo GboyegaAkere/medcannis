@@ -9,7 +9,8 @@ import Slider from "react-slick"
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <div className=' w-[390px] md:w-full'>
+     <BrowserRouter>
      <Header/>
      <Routes>
       <Route path="/" element={<Home/>}/>
@@ -17,5 +18,7 @@ export default function App() {
      </Routes>
      <Footer/>
     </BrowserRouter>
+    </div>
+    
   )
 }

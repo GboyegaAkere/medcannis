@@ -6,11 +6,11 @@ import { products2 } from '../data/product'
 const Product = () => {
   return (
     <div className='mt-10'>
-      <div className='w-326px h-38px md:w-[636px] flex justify-center md:ml-[120px]'>
+      <div className='w-326px h-38px md:w-[636px] flex justify-center'>
         <p className='text-3xl font-semibold'>CHOOSE YOUR WEED</p>
       </div>
 
-      <div className='w-[366px] ml-[37px] h-[112px] md:gap-4 gap-3  mt-3 md:w-[1200px] md:h-80px flex flex-col md:flex-row md:justify-center md:items-center'>
+      <div className='w-[366px] ml-[37px] h-[112px] md:gap-4 gap-3  mt-3 md:w-[1200px] md:h-80px flex flex-col md:flex-row md:ml-[200px] md:items-center'>
           <p className='text-xl font-semibold'>Filtered by Interest:</p>
           <div className='flex flex-row items-center gap-3 md:gap-10'>
             <div className='w-[93px] md:w-[101px] md:h-[48px]  h-[40px] bg-gray-300 rounded-full flex justify-center'>
@@ -31,7 +31,7 @@ const Product = () => {
           </div>
       </div>
 
-      <div className='grid md:grid-cols-4 grid-cols-2 items-center gap-5 md:ml-[100px] mx-6 justify-center w-[342px] md:w-[1200px]'>
+      <div className='grid md:grid-cols-4 grid-cols-2 items-center gap-5 md:ml-[150px] mx-6 justify-center w-[342px] md:w-[1200px]'>
            {products2 && products2.map((items,index)=>{
                     return(
                         <div key={index} className='w-[159px] md:w-[276px] md:h-[568px] h-[480px] border shadow-lg rounded-lg'> 

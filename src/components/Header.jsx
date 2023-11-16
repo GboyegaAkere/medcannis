@@ -8,7 +8,7 @@ import {IoIosArrowDown} from "react-icons/io"
 const Header = () => {
   return (
     <nav>
-      <div className='hidden md:w-[1440px] md:h-[76px] md:flex flex-row items-center justify-between pr-[110px] border-b-2 border-gray-100'>
+      <div className='hidden md:w-[1440px] md:h-[76px] md:flex mx-auto flex-row items-center justify-between pr-[110px] border-b-2 border-gray-100'>
         <img src={Logo} alt="" className='w-[270px] h-[40px] object-contain' />
         <div className='flex flex-row items-center gap-2'>
           <input type="text" placeholder='Search' className='w-[400px] pl-4 h-[48px] rounded-full border-2 border-gray-100' />

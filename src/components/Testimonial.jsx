@@ -6,7 +6,7 @@ import Group2 from '../assets/images/group2.png'
 const Testimonial = () => {
   return (
     <div className='mt-10'>
-        <div className='md:w-[815px] w-[342] h-[76] md:h-[70px] md:ml-[230px] mx-10 mb-3 flex  items-center justify-center'>
+        <div className='md:w-[815px] w-[342] h-[76] md:h-[70px] md:ml-[230px] mx-auto mb-3 flex  items-center justify-center'>
             <p className='text-4xl font-bold'>CUSTOMER TESTIMONIALS</p>
         </div>
         <div className='w-[1612px] md:h-[424px] md:justify-center md:pr-[240px] md:mx-10 ml-6 gap-4 flex  md:flex-row md:items-center flex-col mt-9 '>

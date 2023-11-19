@@ -5,25 +5,9 @@ import {BiSolidStar} from "react-icons/bi"
 import { products } from '../data/product'
 import Slider from "react-slick";
 import Carousal from './Carousal'
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
 
-const BestSeller = ({data}) => {
-    // const [product,setProduct] = React.useState(products)
 
-    // const filterProducts = (category) => {
-    //     const filteredProducts = product.filter(products => products.category === category);
-    //     setProduct(filteredProducts);
-    //   };
-
-    // const settings = {
-    //     dots: true,
-    //     infinite: true,
-    //     speed: 500,
-    //     slidesToShow: 1,
-    //     slidesToScroll: 1
-    //   };
-
+const BestSeller = () => {
 
   return (
     <div>

@@ -52,7 +52,10 @@ const BestSeller = ({data}) => {
                     <p className='text-green-700 underline'> <a href="">View All</a></p>
                 </div>
             </div>
-            <Carousal/>
+            <div className='md:hidden'>
+             <Carousal/>
+            </div>
+            
            <div className= 'hidden md:flex flex-row items-center mx-5  gap-4'>
            {products && products.map((items,index)=>{
                     return(

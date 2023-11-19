@@ -2,6 +2,7 @@ import React from 'react'
 import { products } from '../data/product'
 import {BiSolidStar} from "react-icons/bi"
 import { products2 } from '../data/product'
+import Carousal from './Carousal'
 
 const Product = () => {
   return (
@@ -74,7 +75,6 @@ const Product = () => {
                         </div>
                     )
                    })}  
-    
            </div>
     </div>
   )

@@ -4,6 +4,7 @@ import Weed2 from "../assets/images/weed2.png"
 import {BiSolidStar} from "react-icons/bi"
 import { products } from '../data/product'
 import Slider from "react-slick";
+import Carousal from './Carousal'
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
 
@@ -51,8 +52,8 @@ const BestSeller = ({data}) => {
                     <p className='text-green-700 underline'> <a href="">View All</a></p>
                 </div>
             </div>
-            
-           <div className='flex flex-row items-center mx-5  gap-4'>
+            <Carousal/>
+           <div className= 'hidden md:flex flex-row items-center mx-5  gap-4'>
            {products && products.map((items,index)=>{
                     return(
                         <div key={index} className='w-[291px] h-[568px]  md:mx-auto ml-6 border  shadow-lg rounded-lg '> 

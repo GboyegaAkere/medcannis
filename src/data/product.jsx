@@ -41,19 +41,19 @@ export const products = [
         category: "seller",
         flower: "hemp"
     },
-    {
-        id: 4,
-        image: Weed2,
-        description: "Hybrid Pre-Rolled Joints Pack",
-        title: "FLOWER",
-        reviews: "(95 reviews)",
-        prevPrice: "$50.00",
-        newPrice: "$40.00",
-        energy: "Hybrid 50%",
-        color: "green",
-        category: "seller",
-        flower: "cannabis"
-    },
+    // {
+    //     id: 4,
+    //     image: Weed2,
+    //     description: "Hybrid Pre-Rolled Joints Pack",
+    //     title: "FLOWER",
+    //     reviews: "(95 reviews)",
+    //     prevPrice: "$50.00",
+    //     newPrice: "$40.00",
+    //     energy: "Hybrid 50%",
+    //     color: "green",
+    //     category: "seller",
+    //     flower: "cannabis"
+    // },
       
   ];
 

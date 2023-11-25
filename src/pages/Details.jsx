@@ -1,6 +1,9 @@
 import React from 'react'
 import Weed1 from "../assets/images/weed1.png"
 import { FaStar } from "react-icons/fa";
+import { BsBoxes } from "react-icons/bs";
+import { PiBrainThin } from "react-icons/pi";
+import { AiTwotoneFire } from "react-icons/ai";
 
 const Details = () => {
   return (
@@ -38,6 +41,33 @@ const Details = () => {
                 <p className='font-bold'>135 <span>Reviews</span></p>
               </div>
             </div>
+            <div className='w-[640px] h-[251px] gap-10 flex flex-col'>
+            <div className='flex flex-row items-center justify-center gap-4 mt-5'>
+                  <BsBoxes className='text-3xl'/>
+                  <div className='w-[544px] h-[42px]'>
+                    <p className='text-gray-400 font-semibold'>EFFECTS</p>
+                    <p className='font-semibold'>Calming, Creative, Happy, Relaxing, Sleepy, Uplifting </p>
+                  </div>
+                </div>
+
+                <div className='flex flex-row items-center justify-center gap-4'>
+                  <PiBrainThin className='text-3xl'/>
+                  <div className='w-[544px] h-[42px]'>
+                    <p className='text-gray-400 font-semibold'>MAY RELIEVE</p>
+                    <p className='font-semibold'>Anxiety, Arthritis, Chronic Pain, Depression, Fatigue, Inflammation, Insomnia, Irregular Bowel Movements, Migraines, Mood Swings</p>
+                  </div>
+                </div>
+
+                <div className='flex flex-row items-center justify-center gap-4'>
+                  <AiTwotoneFire className='text-3xl'/>
+                  <div className='w-[544px] h-[42px]'>
+                    <p className='text-gray-400 font-semibold'>AROMAS</p>
+                    <p className='font-semibold'>Anxiety, Arthritis, Chronic Pain, Depression, Fatigue, Inflammation, Insomnia, Irregular Bowel Movements, Migraines, Mood Swings</p>
+                  </div>
+                </div>
+
+                
+              </div>
           </div>
       </div>
     </div>

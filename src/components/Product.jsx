@@ -3,6 +3,7 @@ import { products } from '../data/product'
 import {BiSolidStar} from "react-icons/bi"
 import { products2 } from '../data/product'
 import Carousal from './Carousal'
+import { Link } from 'react-router-dom'
 
 const Product = () => {
   return (
@@ -32,7 +33,7 @@ const Product = () => {
           </div>
       </div>
 
-      <div className='grid md:grid-cols-4 grid-cols-2 items-center gap-5 md:ml-[165px] mx-6 justify-center w-[342px] md:w-[1200px]'>
+      <Link to="/details" className='grid md:grid-cols-4 grid-cols-2 items-center gap-5 md:ml-[165px] mx-6 justify-center w-[342px] md:w-[1200px]'>
            {products2 && products2.map((items,index)=>{
                     return(
                         <div key={index} className='w-[159px] md:w-[276px] md:h-[568px] h-[480px] border shadow-lg rounded-lg'> 
@@ -75,7 +76,7 @@ const Product = () => {
                         </div>
                     )
                    })}  
-           </div>
+           </Link>
     </div>
   )
 }

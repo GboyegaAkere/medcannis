@@ -5,6 +5,7 @@ import {BiSolidStar} from "react-icons/bi"
 import { products } from '../data/product'
 import Slider from "react-slick";
 import Carousal from './Carousal'
+import { Link } from 'react-router-dom'
 
 
 const BestSeller = () => {
@@ -44,9 +45,9 @@ const BestSeller = () => {
            {products && products.map((items,index)=>{
                     return(
                         <div key={index} className='w-[291px] h-[568px]  md:mx-auto ml-6 border  shadow-lg rounded-lg '> 
-                            <div className=' w-[291px] rounded-lg h-[240px] bg-gray-200 flex items-center justify-center'>
+                            <Link to="/details" className=' w-[291px] rounded-lg h-[240px] bg-gray-200 flex items-center justify-center'>
                                 <img src={items.image} alt="" />
-                            </div>
+                            </Link>
                             <div className='flex flex-col items-center justify-center gap-3 mt-3'>
                                 <p>{items.title}</p>
                                 <div className='w-[291px] h-[54px] flex flex-col items-center justify-center px-5'>

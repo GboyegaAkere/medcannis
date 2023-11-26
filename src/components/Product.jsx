@@ -33,13 +33,13 @@ const Product = () => {
           </div>
       </div>
 
-      <Link to="/details" className='grid md:grid-cols-4 grid-cols-2 items-center gap-5 md:ml-[165px] mx-6 justify-center w-[342px] md:w-[1200px]'>
+      <div className='grid md:grid-cols-4 grid-cols-2 items-center gap-5 md:ml-[165px] mx-6 justify-center w-[342px] md:w-[1200px]'>
            {products2 && products2.map((items,index)=>{
                     return(
                         <div key={index} className='w-[159px] md:w-[276px] md:h-[568px] h-[480px] border shadow-lg rounded-lg'> 
-                            <div className='w-[159px] md:w-[276px] h-[160px] md:h-[240px] bg-gray-300 flex justify-center '>
+                            <Link to="/details" className='w-[159px] md:w-[276px] h-[160px] md:h-[240px] bg-gray-300 flex justify-center '>
                                 <img src={items.image} alt="" className='md:w-[164px] w-[120px] h-[120px] md:h-[164px] mt-8' />
-                            </div>
+                            </Link>
                             <div className='flex flex-col items-center justify-center gap-3 md:gap-4 md:mt-0 mt-2'>
                                 <p>{items.title}</p>
                                 <div className='w-[159px] h-[72px] md:w-[276px] md:h-[54px] ml-[40px] md:ml-20'>
@@ -76,7 +76,7 @@ const Product = () => {
                         </div>
                     )
                    })}  
-           </Link>
+           </div>
     </div>
   )
 }

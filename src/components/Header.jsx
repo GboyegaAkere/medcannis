@@ -4,12 +4,13 @@ import { BsSearch } from 'react-icons/bs';
 import {PiHandbagBold} from "react-icons/pi"
 import {FiMenu} from "react-icons/fi"
 import {IoIosArrowDown} from "react-icons/io"
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
     <nav>
       <div className='hidden md:w-[1440px] md:h-[76px] md:flex mx-auto flex-row items-center justify-between pr-[110px] border-b-2 border-gray-100'>
-        <img src={Logo} alt="" className='w-[270px] h-[40px] object-contain' />
+         <a href="./"><img src={Logo} alt="" className='w-[270px] h-[40px] object-contain' /></a>
         <div className='flex flex-row items-center gap-2'>
           <input type="text" placeholder='Search' className='w-[400px] pl-4 h-[48px] rounded-full border-2 border-gray-100' />
           <div className='w-[48px] h-[48px] bg-green-500 rounded-full flex justify-center items-center'>
@@ -20,12 +21,12 @@ const Header = () => {
         <div className='flex flex-row items-center gap-2 '>
           <p className='font-semibold'>Your Accout</p>
           <p className='text-gray-200'>|</p>
-          <div className='relative'>
+          <Link to="/cart" className='relative'>
             <PiHandbagBold className='w-[24px] h-[24px]'/>
             <div className='absolute bottom-1 left-3 w-[16px] h-[16px] bg-red-600 rounded-full flex justify-center items-center'>
               <p className='text-white'>0</p>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
 

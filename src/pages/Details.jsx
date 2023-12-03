@@ -66,7 +66,7 @@ const Details = () => {
                   </div>
                 </div> 
               </div>
-              <div className='mt-6'>
+              <div className='mt-10'>
                 <p>DESCRIPTION</p>
                 <div className='w-[342px] h-[84px] md:w-[640px] md:h-[42px]'>
                   <p className='text-gray-500'>Jungle Diamonds is a slightly indica dominant hybrid strain (60% indica/40% sativa) created through crossing the infamous Slurricane X Gorilla Glue #4 strains.</p>
